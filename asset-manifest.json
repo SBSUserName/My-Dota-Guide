@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Dota-Guide/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/My-Dota-Guide/static/js/main.1026e8b3.chunk.js",
+    "main.js.map": "/My-Dota-Guide/static/js/main.1026e8b3.chunk.js.map",
+    "runtime-main.js": "/My-Dota-Guide/static/js/runtime-main.01ca75b5.js",
+    "runtime-main.js.map": "/My-Dota-Guide/static/js/runtime-main.01ca75b5.js.map",
+    "static/js/2.43960a2b.chunk.js": "/My-Dota-Guide/static/js/2.43960a2b.chunk.js",
+    "static/js/2.43960a2b.chunk.js.map": "/My-Dota-Guide/static/js/2.43960a2b.chunk.js.map",
+    "static/js/3.41d325d8.chunk.js": "/My-Dota-Guide/static/js/3.41d325d8.chunk.js",
+    "static/js/3.41d325d8.chunk.js.map": "/My-Dota-Guide/static/js/3.41d325d8.chunk.js.map",
+    "index.html": "/My-Dota-Guide/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/My-Dota-Guide/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.43960a2b.chunk.js.LICENSE.txt": "/My-Dota-Guide/static/js/2.43960a2b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/My-Dota-Guide/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01ca75b5.js",
+    "static/js/2.43960a2b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1026e8b3.chunk.js"
+  ]
+}
