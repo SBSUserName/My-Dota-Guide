@@ -1,0 +1,20 @@
+@import "../variables/sectionSpacing.scss";
+
+.outta-know {
+    padding: $sectionSpacing 0;
+
+    h6 {
+        font-style: italic;
+    }
+
+    .brief {
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+        
+    }
+}

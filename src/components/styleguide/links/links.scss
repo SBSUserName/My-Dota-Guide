@@ -1,0 +1,16 @@
+@import "../../variables/Colors.scss";
+
+.mdg-link {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+
+    &:hover {
+        color: white;
+        text-shadow: 0 0 2px white;
+        text-decoration: none;
+    }
+}

@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Styleguide from "./components/styleguide/Styleguide"
+import Home from "./components/pages/home/Home"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    // <Styleguide />
+    <>
+      <Home />
+    </>
   );
 }
 
