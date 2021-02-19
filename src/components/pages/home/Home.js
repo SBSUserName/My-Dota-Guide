@@ -1,15 +1,15 @@
-import Header from "../../header/Header"
 import HomeBanner from "../../homeBanner/HomeBanner"
 import OuttaKnow from "../../outtaKnow/OuttaKnow"
 import TopGuide from "../../topGuides/TopGuides"
+import ItemsToWatch from "../../itemsToWatch/ItemsToWatch"
 
 const Home = () => {
     return (
         <div>
-            <Header />
             <HomeBanner />
             <OuttaKnow />
             <TopGuide />
+            <ItemsToWatch />
         </div>
     )
 }

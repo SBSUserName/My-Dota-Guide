@@ -14,7 +14,7 @@ const Header = () => {
             </div>
 
             <div className="quick-links">
-                <Links text="Update Guides" />
+                <Links text="Updated Guides" />
                 <Links text="Heroes For Beginners" />
                 <Links text="All Heroes Guides" />
                 <Links text="Items" />
