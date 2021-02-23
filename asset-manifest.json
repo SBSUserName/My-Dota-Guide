@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/My-Dota-Guide/static/css/main.75c8e42e.chunk.css",
-    "main.js": "/My-Dota-Guide/static/js/main.394ff7c5.chunk.js",
-    "main.js.map": "/My-Dota-Guide/static/js/main.394ff7c5.chunk.js.map",
-    "runtime-main.js": "/My-Dota-Guide/static/js/runtime-main.74c55279.js",
-    "runtime-main.js.map": "/My-Dota-Guide/static/js/runtime-main.74c55279.js.map",
+    "main.css": "/My-Dota-Guide/static/css/main.56638cff.chunk.css",
+    "main.js": "/My-Dota-Guide/static/js/main.5ed15106.chunk.js",
+    "main.js.map": "/My-Dota-Guide/static/js/main.5ed15106.chunk.js.map",
+    "runtime-main.js": "/My-Dota-Guide/static/js/runtime-main.b859df96.js",
+    "runtime-main.js.map": "/My-Dota-Guide/static/js/runtime-main.b859df96.js.map",
     "static/css/2.150d169a.chunk.css": "/My-Dota-Guide/static/css/2.150d169a.chunk.css",
-    "static/js/2.360c5cd1.chunk.js": "/My-Dota-Guide/static/js/2.360c5cd1.chunk.js",
-    "static/js/2.360c5cd1.chunk.js.map": "/My-Dota-Guide/static/js/2.360c5cd1.chunk.js.map",
-    "static/js/3.bf50281c.chunk.js": "/My-Dota-Guide/static/js/3.bf50281c.chunk.js",
-    "static/js/3.bf50281c.chunk.js.map": "/My-Dota-Guide/static/js/3.bf50281c.chunk.js.map",
+    "static/js/2.0352ab39.chunk.js": "/My-Dota-Guide/static/js/2.0352ab39.chunk.js",
+    "static/js/2.0352ab39.chunk.js.map": "/My-Dota-Guide/static/js/2.0352ab39.chunk.js.map",
+    "static/js/3.66f5f2d6.chunk.js": "/My-Dota-Guide/static/js/3.66f5f2d6.chunk.js",
+    "static/js/3.66f5f2d6.chunk.js.map": "/My-Dota-Guide/static/js/3.66f5f2d6.chunk.js.map",
     "index.html": "/My-Dota-Guide/index.html",
     "static/css/2.150d169a.chunk.css.map": "/My-Dota-Guide/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.75c8e42e.chunk.css.map": "/My-Dota-Guide/static/css/main.75c8e42e.chunk.css.map",
-    "static/js/2.360c5cd1.chunk.js.LICENSE.txt": "/My-Dota-Guide/static/js/2.360c5cd1.chunk.js.LICENSE.txt",
-    "static/media/demo-logo.91caa365.png": "/My-Dota-Guide/static/media/demo-logo.91caa365.png",
+    "static/css/main.56638cff.chunk.css.map": "/My-Dota-Guide/static/css/main.56638cff.chunk.css.map",
+    "static/js/2.0352ab39.chunk.js.LICENSE.txt": "/My-Dota-Guide/static/js/2.0352ab39.chunk.js.LICENSE.txt",
     "static/media/demo-outta-know.0d900e29.jpg": "/My-Dota-Guide/static/media/demo-outta-know.0d900e29.jpg",
     "static/media/homeBanner.scss": "/My-Dota-Guide/static/media/dota2-banner.a132f912.webp",
     "static/media/itemsToWatch.scss": "/My-Dota-Guide/static/media/dota2-item.bd613af9.jpg",
     "static/media/top-guide1.76e3901a.png": "/My-Dota-Guide/static/media/top-guide1.76e3901a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.74c55279.js",
+    "static/js/runtime-main.b859df96.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.360c5cd1.chunk.js",
-    "static/css/main.75c8e42e.chunk.css",
-    "static/js/main.394ff7c5.chunk.js"
+    "static/js/2.0352ab39.chunk.js",
+    "static/css/main.56638cff.chunk.css",
+    "static/js/main.5ed15106.chunk.js"
   ]
 }
