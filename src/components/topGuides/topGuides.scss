@@ -1,7 +1,11 @@
-@import "../variables/sectionSpacing.scss";
 @import "../variables/Colors.scss";
 
 .top-guides {
-    padding: $sectionSpacing 0;
     background-image: linear-gradient(90deg, $mdgSecondary1, $mdgSecondary2);
+
+    .mar-bot {
+        @media (max-width: 991px) {
+            margin-bottom: 3rem;
+        }
+    }
 }

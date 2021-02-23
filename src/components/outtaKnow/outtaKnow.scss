@@ -1,9 +1,6 @@
-@import "../variables/sectionSpacing.scss";
 @import "../variables/Colors.scss";
 
 .outta-know {
-    padding: $sectionSpacing 0;
-
     h6 {
         font-style: italic;
         color: $mdgPrimary2;
@@ -17,7 +14,11 @@
             display: -webkit-box;
             -webkit-line-clamp: 8;
             -webkit-box-orient: vertical;
-            color: rgba(0,0,0,0.35);
+            color: rgba(0,0,0,0.5);
+
+            @media (max-width: 1199px) {
+                -webkit-line-clamp: 5;
+            }
         }
         
     }

@@ -6,16 +6,21 @@ const HomeBanner = () => {
     return (
         <div className="home-banner">
             <div className="content-container">
-                <h2 className="text-center mb-5">
-                    The guides here will help you DOTA in a simple but effective way. Focused on fun play 
-                    rather than serious competetive way but you will eventually start playing awesomely 
-                    because<br /> 
-                    <span><b>YOU ARE AWESOME!</b></span>
-                </h2>
+                <h1 className="mb-5 text-center larger-than-mobile-message">
+                    <span>Simple</span> yet <span>Effective</span><br/>
+                    <span>Fun Play</span> rather than serious competetiveness<br />
+                    But you will eventually start playing like a pro because<br />
+                    <span>YOU ARE AWESOME!</span>
+                </h1>
+
+                <h1 className="mobile-message">
+                    <span>Simple</span> yet <span>Effective</span><br/>
+                    <span>Fun Play</span>
+                </h1>
 
                 <div className="buttons-wrapper">
                     <Buttons btnType="primary" btnText="Updated Guides" />
-                    <div style={{width: "1rem", display: "inline-block"}}></div>
+                    <div className="spacing"></div>
                     <Buttons btnType="secondary" btnText="All Heroes" />
                 </div>
             </div>

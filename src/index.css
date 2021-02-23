@@ -15,5 +15,43 @@ code {
 }
 
 * {
-  font-family: 'Antic', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.section-title {
+  font-weight: 700!important;
+  color: #630F07;
+}
+.section-title.white-shadow {
+  /* text-shadow: 0 0 2px rgba(255,255,255,0.5); */
+}
+
+.section-title-underline {
+  width: 70%;
+  margin: auto;
+  height: 8px;
+  background-image: linear-gradient(90deg, transparent, #630F07, #380A05, #630F07, transparent);
+}
+.section-title-underline.white-shadow {
+  /* box-shadow: 0 0 6px -22px rgba(255,255,255,0.5); */
+}
+
+.section-spacing {
+  padding: 6rem 0;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 1.75rem!important;
+  }
+
+  h3 {
+    font-size: 1.25rem!important;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-spacing {
+    padding: 3rem 0;
+  }
 }

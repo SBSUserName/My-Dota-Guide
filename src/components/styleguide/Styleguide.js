@@ -1,6 +1,5 @@
 import Buttons from "./buttons/Button"
 import Links from "./links/Links"
-import Typography from "./typography/Typography"
 
 const Styleguide = () => {
     return (
@@ -9,7 +8,6 @@ const Styleguide = () => {
             <hr />
             <Links />
             <hr />
-            <Typography />
         </>
     )
 }

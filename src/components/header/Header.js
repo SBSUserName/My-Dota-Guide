@@ -1,6 +1,6 @@
 import Links from "../styleguide/links/Links"
 import Buttons from "../styleguide/buttons/Button"
-import Logo from "../../assets/images/demo-logo.png"
+import SideMenu from "./SideMenu"
 import "./header.scss"
 
 const Header = () => {
@@ -26,6 +26,8 @@ const Header = () => {
                 <div style={{width: "0.5rem", display: "inline-block"}}></div>
                 <Buttons btnType="secondary" btnText="Signup" />
             </div>
+
+            <SideMenu className="side-menu" />
         </div>
     )
 }

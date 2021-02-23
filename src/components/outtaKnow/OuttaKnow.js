@@ -4,12 +4,15 @@ import "./outtaKnow.scss"
 
 const outtaKnow = ({outtaKnowTitle, outtaKnowDescription, authorName}) => {
     return (
-        <div className="outta-know">
+        <div className="outta-know section-spacing">
             <div className="container">
-                <h1 className="mb-5 text-center">You Outta Know</h1>
+                <div className="mb-5">
+                    <h1 className="text-center section-title">You Outta Know</h1>
+                    <div className="section-title-underline"></div>
+                </div>
                 
                 <div className="row">
-                <div className="col-sm-6">
+                <div className="col-lg-6">
                         <div>
                             <div className="mb-3">
                                 <img src={StaticOuttaKnowImage} alt="outta know" className="img-fluid mb-2" />
@@ -17,7 +20,7 @@ const outtaKnow = ({outtaKnowTitle, outtaKnowDescription, authorName}) => {
                         </div>
                     </div>
 
-                    <div className="col-sm-6">
+                    <div className="col-lg-6">
                         <h3 className="mb-1">{outtaKnowTitle}</h3>
                         <h6 className="mb-3">{authorName}</h6>
 

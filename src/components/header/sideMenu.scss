@@ -1,0 +1,64 @@
+@import "../variables/Colors.scss";
+
+.side-menu-btn {
+    box-shadow: 0 0 5px 3px $mdgPrimary2;
+    display: none;
+    align-items: center;
+    padding: 0 0.75rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+       box-shadow: 0 0 3px 1px white;
+    }
+
+    @media (max-width: 992px) {
+        display: block;
+    }
+}
+
+.side-menu-wrapper {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.9);
+    transition: 0.25s;
+    height: 100vh;
+
+    &.show {
+        left: 0;
+    }
+
+    .side-menu {
+        width: 45%;
+        margin-left: auto;
+        padding: 1rem 2rem;
+        color: white;
+        background-image: linear-gradient(90deg, #630F07, #380A05, #380A05);
+        height: 100%;
+        position: relative;
+
+        @media (max-width: 575px) {
+            width: 100%;
+        }
+
+        a {
+            font-size: 1.5rem!important;
+            margin: 0 0 1rem 0;
+        }
+
+        .buttons-wrapper {
+            display: flex;
+            margin-top: 2rem;
+        }
+
+        .hide {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 2rem;
+            cursor: pointer;
+        }
+    }
+}

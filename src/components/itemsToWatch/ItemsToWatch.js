@@ -3,12 +3,15 @@ import "./itemsToWatch.scss"
 
 const ItemsToWatch = () => {
     return (
-        <div className="items-watch">
+        <div className="items-watch section-spacing">
             <div className="container">
-                <h1 className="mb-5 text-center">Items To Watch Out For</h1>
+                <div className="mb-5">
+                    <h1 className="text-center section-title">Items To Watch Out For</h1>
+                    <div className="section-title-underline"></div>
+                </div>
 
                 <div className="row mb-5">
-                    <div className="col-sm-6">
+                    <div className="col-lg-6 mar-bot">
                         <div className="item-wrapper">
                             <div className="item-image" style={{width: "50%"}}>
                             </div>
@@ -23,7 +26,7 @@ const ItemsToWatch = () => {
                         </div>
                     </div>
 
-                    <div className="col-sm-6">
+                    <div className="col-lg-6">
                         <div className="item-wrapper">
                             <div className="item-image" style={{width: "50%"}}>
                             </div>
